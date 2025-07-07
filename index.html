@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <pre>
+    <h1 class="ma_sun">МОЕМУ                    СОЛНЦУ</h1>
+    </pre>
+    <img src="sun.png" class="sun">
+    <h2>Самой любимой, ненаглядной, лучшей девушке на свете, ты мой мир и мой свет, ты самоё большоё моё счастье, 
+        каждый день ты светишь мне ярче самых ярких звезд, ты приносишь в мой мир любовь и счастье, мир и добро, 
+        ты ждешь меня, веришь в меня, и знаешь ты лучшее что у меня есть.
+Ты самая красивийшая красавица из всех красавиц на свете, ты женственна, ты мила, ты чудесна и без тебя мир вот такой<br> 
+|<br>
+v
+</h2>
+<button id="darkOverlayBtn">ТЫК!</button>
+
+
+<script>
+  document.getElementById('darkOverlayBtn').addEventListener('click', function() {
+    const overlay = document.createElement('div');
+    overlay.className = 'overlay';
+    document.body.appendChild(overlay);
+    
+    // Для удаления при повторном клике:
+    overlay.addEventListener('click', () => overlay.remove());
+  });
+</script>
+<div class="film-strip-container">
+    <div class="film-strip">
+        <!-- Дублируем содержимое для бесшовной анимации -->
+        <div class="film-item">
+            <img src="film.png">
+        </div>
+        <!-- Дубликат -->
+        <div class="film-item">
+            <img src="film.png">
+        </div>
+    </div>
+</div>
+<pre>
+<h1 class = "itismy">ЭТО ВСЁ МОЁ                           И Я ЭТО НИКОМУ<br><br>   НИКОГДА НЕ ОТДАМ</h1>
+</pre>
+<img src="heart.png" class="heart">
+
+<div class="film-strip-container">
+    <div class="film-strip1">
+        <!-- Дублируем содержимое для бесшовной анимации -->
+        <div class="film-item">
+            <img src="film2.png">
+        </div>
+        <!-- Дубликат -->
+        <div class="film-item">
+            <img src="film2.png">
+        </div>
+    </div>
+</div>
+<div class="fox-container">
+    <div class="fox fox-left">
+        <img src="cute-fox-clipart-lg.png" alt="Лиса слева">
+    </div>
+    <div class="fox fox-right">
+        <img src="cute-fox-clipart-lg.png" alt="Лиса справа">
+    </div>
+<div class="fox fox-top-left">
+    <img src="cute-fox-clipart-lg.png" alt="Лиса">
+</div>
+<div class="fox fox-top-right">
+    <img src="cute-fox-clipart-lg.png" alt="Лиса">
+</div>
+<div class="fox fox-but-left">
+    <img src="cute-fox-clipart-lg.png" alt="Лиса">
+</div>
+<div class="fox fox-but-right">
+    <img src="cute-fox-clipart-lg.png" alt="Лиса">
+</div>
+</div>
+</body>
+</html>
